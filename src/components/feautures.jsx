@@ -6,7 +6,7 @@ function AosFeatures() {
   return (
     <>
       <div className="aosfeatures">
-        <div className="middledownn">
+        <div className="typesize">
           <strong>AOS features</strong>
         </div>
         <Feature/>

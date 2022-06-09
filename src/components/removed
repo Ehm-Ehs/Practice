@@ -11,6 +11,11 @@ import userAccess from "./images/uac.svg";
     Request Demo
   </a>
 
+  <a href="#" className="links buttonGreen ">
+             
+    Request Demo{" "}
+  </a>
+
   <div className="middle">
         <div className="middle1">
           <img className="m1" src={middle1img} alt="partners" />

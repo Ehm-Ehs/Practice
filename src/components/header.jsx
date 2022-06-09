@@ -1,3 +1,4 @@
+import Button from "./btn";
 function Header() {
     return (
       <>
@@ -45,21 +46,18 @@ function Header() {
         <div className="second">
           <div className="subSecond">
             <a href="#" className="links">
-              {" "}
-              Products{" "}
+              
+              Products
             </a>
           </div>
           <div className="subSecond">
             <a href="#" className="links">
-              {" "}
-              Solution{" "}
+              
+              Solution
             </a>
           </div>
           <div className="subSecond ">
-            <a href="#" className="links buttonGreen ">
-              {" "}
-              Request Demo{" "}
-            </a>
+           <Button/>
           </div>
         </div>
       </div>
