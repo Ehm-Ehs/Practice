@@ -1,0 +1,136 @@
+import dataAnalysis from "./images/da.svg";
+import auditLogs from "./images/al.svg";
+import farmManagement from "./images/fm.svg";
+import farmerOnboarding from "./images/fo.svg";
+import gis from "./images/gs.svg";
+import inputDistribution from "./images/id.svg";
+import inventory from "./images/im.svg";
+import userAccess from "./images/uac.svg";
+
+<a href="#" className="links buttonGreen ">
+    Request Demo
+  </a>
+
+  <div className="middle">
+        <div className="middle1">
+          <img className="m1" src={middle1img} alt="partners" />
+        </div>
+        <div className="middletext">
+          <p>
+            <strong>Future Ready</strong>
+          </p>
+          <p>
+            Change is inevitable. Hence, we ensure that irrespective of the
+            nature
+          </p>
+          <p>
+            of the changes be a statutory or technological, we always bring you
+            the
+          </p>
+          <p>
+            latest updates. So that your business keeps functioning as smooth
+          </p>
+          <p>always.</p>
+        </div>
+      </div>
+      <div className="middle">
+        <div className="middletext">
+          <p>
+            <strong>Flexible Workflow Model</strong>
+          </p>
+          <p>
+            AOS flexible workflow model gives you the ability to define
+            automated
+          </p>
+          <p>workflow rules that match your business pratices. The system</p>
+          <p>conforms to general agricultural practices</p>
+        </div>
+        <div className="middle3">
+          <img className="md2" src={middle2img} alt="partners" />
+        </div>
+      </div>
+      <div className="middle">
+        <div className="middle1">
+          <img className="md3" src={middle3img} alt="partners" />
+        </div>
+        <div className="middletext">
+          <p>
+            <strong>Highly Adaptable,Enterprise-Class</strong>
+          </p>
+          
+          <p>
+            <strong>Applications</strong>
+          </p>
+          <p>AOS delivers a broad set of interated Agriculture business</p>
+          <p>
+            functionality on a highly adaptable platform.Role-based management
+          </p>
+          <p>
+            dashboard with drill-down capability allow you to effectively
+            monitor
+          </p>
+          <p>
+            and analyse your operators and pre-built charts and graph can be
+          </p>
+          <p>easily expanded to meet your specific needs</p>
+        </div>
+      </div>
+
+
+      
+ 
+ <div>
+          <div className="features">
+            <div className="innerfeatures">
+              <img src={farmManagement} alt="icons" />
+              <p>
+                <strong>Farm Management</strong>
+              </p>
+            </div>
+            <div className="innerfeatures">
+              <img src={inputDistribution} alt="icons" />
+              <p>
+                <strong>Input Distribution</strong>
+              </p>
+            </div>
+            <div className="innerfeatures">
+              <img src={farmerOnboarding} alt="icons" />
+              <p>
+                <strong>Farmer Onboarding</strong>
+              </p>
+            </div>
+            <div className="innerfeatures">
+              <img src={gis} alt="icons" />
+              <p>
+                <strong>GIS Service</strong>
+              </p>
+            </div>
+          </div>
+          <div className="features">
+            <div className="innerfeatures">
+              <img src={inventory} alt="icons" />
+              <p>
+                <strong>Inventory Management</strong>
+              </p>
+            </div>
+            <div className="innerfeatures">
+              <img src={userAccess} alt="icons" />
+              <p>
+                <strong>User Access Control</strong>
+              </p>
+            </div>
+            <div className="innerfeatures">
+              <img src={dataAnalysis} alt="icons" />
+              <p>
+                <strong>Data Analysis</strong>
+              </p>
+            </div>
+
+            <div className="innerfeatures">
+              <img src={auditLogs} alt="icons" />
+              <p>
+                <strong>Audit Logs</strong>
+              </p>
+            </div>
+          </div>
+        </div>
