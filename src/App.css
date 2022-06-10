@@ -51,9 +51,9 @@
 
 .toptype{
  background-image: url(./images/bg1.jpeg);
- background-position: center;
- background-repeat: no-repeat;
- width: 100%;
+ /* background-position: center;
+ background-repeat: no-repeat; */
+ background-size: cover;
  
 }
 
