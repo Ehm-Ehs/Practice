@@ -139,3 +139,46 @@ import userAccess from "./images/uac.svg";
             </div>
           </div>
         </div>
+
+
+        .middle1{
+          background-image: url(./images/middle1.svg);
+          display: flex;
+          justify-content: center;
+          background-position: center;
+          background-repeat: no-repeat;
+          width: 50%;
+          align-items: center;
+          background-position: center;
+          background-repeat: no-repeat; 
+        }
+        
+         .m1{
+          padding-left: 200px;
+          padding-top: 70px;
+         
+        }
+        
+        .middle3{
+          display: flex;
+          justify-content: center;
+          background-position: center;
+          background-repeat: no-repeat;
+          width: 50%; 
+          padding-right: 350px;
+          background-image: url(./images/middle2.svg);
+        }
+        .md2{
+          
+         object-fit: contain; 
+         width: 100%; 
+        }
+        
+        .md3{ 
+          padding-top: 60px;
+          padding-left: 300px;
+          display: flex; 
+          align-items: center;
+         object-fit: contain;
+         
+        } 

@@ -47,16 +47,16 @@ function AosFeatures() {
           </div>
           <div>
             <p>
-              We levarage technology to empower smallholder farmers across
+              We leverage technology to empower smallholder farmers across
               Africa by linking them to finances data-
             </p>
             <p>
-              driven best practices, and acess to local global marketers for
+              driven best practices, and access to local global marketers for
               their commodities
             </p>
           </div>
           <div className="type">
-              <Button/>
+              <Button className="green"/>
           </div>
         </div>
         <div>
@@ -84,7 +84,7 @@ function AosFeatures() {
       </div>
 
       <>
-        <div className="footer subscribe">
+        <div className="footer">
           <div>
             <strong>
               <p>Subscribe our Newsletter</p>
