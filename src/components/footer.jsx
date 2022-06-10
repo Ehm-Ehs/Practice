@@ -44,10 +44,10 @@ function Footer() {
         </div>
         <div className="footerlist">
           <div className="listed">
-            <p>
+            <p >
               <strong>Legal</strong>
             </p>
-            <ul>
+            <ul className="list-heading">
               <li>Terms and Condition</li>
               <li>Privacy and Policy</li>
               <li>Cookie Policy</li>
@@ -57,7 +57,7 @@ function Footer() {
             <p>
               <strong>Contacts</strong>
             </p>
-            <ul>
+            <ul className="list-heading">
               <li>
                 <p>31, 441 Crescent</p>
                 <p>CITEC Villas</p>
@@ -74,7 +74,7 @@ function Footer() {
             <p>
               <strong>Socials</strong>
             </p>
-            <ul class>
+            <ul className="list-heading">
               <li className="icon">
                 <svg
                   width="16"
@@ -90,7 +90,7 @@ function Footer() {
                     fill="black"
                   />
                 </svg>
-                <p>Facebook</p>
+                <p className="icon-type">Facebook</p>
               </li>
               <li className="icon">
                 <svg
@@ -164,7 +164,7 @@ function Footer() {
                     </radialGradient>
                   </defs>
                 </svg>
-                <p>Instagram</p>
+                <p className="icon-type">Instagram</p>
               </li>
               <li className="icon">
                 <svg
@@ -195,7 +195,7 @@ function Footer() {
                     fill="white"
                   />
                 </svg>
-                <p>LinkedIn</p>
+                <p className="icon-type">LinkedIn</p>
               </li>
               <li className="icon">
                 <svg
@@ -213,7 +213,7 @@ function Footer() {
                     fill="black"
                   />
                 </svg>
-                <p>Youtube</p>
+                <p className="icon-type">Youtube</p>
               </li>
             </ul>
           </div>
