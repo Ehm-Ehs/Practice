@@ -1,8 +1,8 @@
 import Button from "./btn";
 function Header() {
-    return (
-      <>
-         <div className="header">
+  return (
+    <>
+      <div className="header">
         <div className="logo">
           <svg
             width="84"
@@ -46,23 +46,21 @@ function Header() {
         <div className="second">
           <div className="subSecond">
             <a href="#" className="links">
-              
               Products
             </a>
           </div>
           <div className="subSecond">
             <a href="#" className="links">
-              
               Solution
             </a>
           </div>
-          <div className="subSecond ">
-           <Button className="green"/>
+          <div>
+            <Button className="green" />
           </div>
         </div>
       </div>
-      </>
-    );
-  }
-  
-  export default Header ;
+    </>
+  );
+}
+
+export default Header;

@@ -23,6 +23,7 @@
 .header{
   display: flex;
   justify-content: space-between;
+  padding: 5px;
 }
 
 .second{
@@ -38,6 +39,7 @@
   padding: 10px 5px;
   border-color: black;
   border-radius: 5px;
+  font-size: 14px;
 }
 
 .green{
@@ -88,13 +90,13 @@
  
 
 .middle{
-  padding:0 50px;
+  padding:0 20px;
 }
 
 .middle-content{
  display: flex;
  gap: 30px;
- padding: 30px 0;
+ /* padding: 30px 0; */
  justify-content: space-around;
  align-items: center;
  font-size: 18px;
@@ -147,6 +149,7 @@
   background-color: black;
   color: white;
   text-align: center;
+  justify-content: space-between;
  
  }
  .middledowntext{
@@ -239,10 +242,14 @@ justify-content: space-between;
 }
 
 .icon{
-  height: 50px;
-  display:flex;
+padding-bottom: 5px; 
+ display:flex;
 }
 
 .icon-type{
   font-size: 14px;
+}
+
+.iconImg{
+  height: 20px;
 }

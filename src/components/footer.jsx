@@ -76,7 +76,7 @@ function Footer() {
             </p>
             <ul className="list-heading">
               <li className="icon">
-                <svg
+                <svg className="iconImg"
                   width="16"
                   height="17"
                   viewBox="0 0 16 17"
@@ -93,7 +93,7 @@ function Footer() {
                 <p className="icon-type">Facebook</p>
               </li>
               <li className="icon">
-                <svg
+                <svg className="iconImg"
                   width="16"
                   height="17"
                   viewBox="0 0 16 17"
@@ -167,7 +167,7 @@ function Footer() {
                 <p className="icon-type">Instagram</p>
               </li>
               <li className="icon">
-                <svg
+                <svg className="iconImg"
                   width="16"
                   height="17"
                   viewBox="0 0 16 17"
@@ -198,7 +198,7 @@ function Footer() {
                 <p className="icon-type">LinkedIn</p>
               </li>
               <li className="icon">
-                <svg
+                <svg className="iconImg"
                   width="14"
                   height="15"
                   viewBox="0 0 14 15"
@@ -220,7 +220,7 @@ function Footer() {
         </div>
       </footer>
       <div className="footerdown">
-        <div>Copyright2022AOS</div>
+        <div>Copyright  @ 2022AOS</div>
         <div className="footerddown">
           <p>Privacy Policy</p>
           <p>Terms of Service</p>
