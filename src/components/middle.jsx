@@ -2,7 +2,7 @@ import { useState } from "react";
 import middle1img from "../images/ssd.svg";
 import middle2img from "../images/odc.svg";
 import middle3img from "../images/rtdd.svg";
-import firstbg from "../images/middle1.svg";
+import firstbg from "../images/mid1.svg";
 import secondbg from "../images/middle2.svg";
 
 
@@ -24,7 +24,7 @@ function Middle() {
                 </div>
                   
                  <div className="middle-type">
-                 <p><strong> {writeup.title} </strong></p>
+                 <p className="middle-title"><strong> {writeup.title} </strong></p>
                  <p>{writeup.body} </p>
                  </div>
              </div>

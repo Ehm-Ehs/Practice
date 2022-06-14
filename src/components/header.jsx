@@ -45,7 +45,7 @@ function Header() {
         </div>
         <div className="second">
           <div className="subSecond">
-            <a href="#" className="links">
+            <a href="#" className="links ">
               Products
             </a>
           </div>
@@ -54,7 +54,7 @@ function Header() {
               Solution
             </a>
           </div>
-          <div>
+          <div >
             <Button className="green" />
           </div>
         </div>

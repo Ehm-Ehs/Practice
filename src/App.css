@@ -1,12 +1,11 @@
 /* -----------general---------- */
 *{
-    margin:0px;
-    /* padding:0 5px; */
     box-sizing: border-box;
     
   }
   body{
     background-color: #FAFAFA;
+    font-size: 18px;
   }
   
 *::after,::before {
@@ -23,8 +22,8 @@
 .header{
   display: flex;
   justify-content: space-between;
-  padding: 5px;
-}
+  padding: 30px;
+  }
 
 .second{
   display: flex;
@@ -32,11 +31,12 @@
 }
 
 .subSecond{
-  padding: 10px 15px;
+  padding: 10px 20px ;
+  font-size: 18px;
 }
 
 .btn{
-  padding: 10px 5px;
+  padding: 15px 10px;
   border-color: black;
   border-radius: 5px;
   font-size: 14px;
@@ -45,23 +45,31 @@
 .green{
   background-color: #48A928;
   border-style: none;
+}
+
+.links{
+  text-decoration: none;
+  color: black;
+}
+
+.linkButton{
+  text-decoration: none;
   color: white;
-  
 }
 
 /* -----------------------------top--------------------- */
 
+
 .toptype{
  background-image: url(./images/bg1.jpeg);
- /* background-position: center;
- background-repeat: no-repeat; */
  background-size: cover;
- 
-}
+ padding: 10px;
+text-align: center;
+font-size: 18px;
+ }
 
-.innertop{
-  padding: 10px;
-  text-align: center;
+ .aosSub{
+  padding-bottom: 20px;
 }
 
 .partners{
@@ -76,14 +84,13 @@
   gap: 10px;
 }
 
-.aos{
-  padding-top: 60px;
-  padding-bottom: 20px;
-}
+.svp-type{
+margin: 0;
+  text-align: center;
 
-.aosSub{
-  padding-bottom: 30px;
-}
+} 
+
+
 
 /* -----------------------middle---------------------------- */
 
@@ -96,14 +103,16 @@
 .middle-content{
  display: flex;
  gap: 30px;
- /* padding: 30px 0; */
  justify-content: space-around;
  align-items: center;
  font-size: 18px;
+ padding: 0 30px;
 
 }
 
-
+.middle-title{
+  font-size: 32px;
+}
 
 
 
@@ -153,12 +162,13 @@
  
  }
  .middledowntext{
-  padding-top: 80px;
+  padding-top: 40px;
   font-size: 16px;
  }
 
  .middledownn{
   font-size: 28px;
+  margin: 0;
  }
 
 .middletext{
@@ -228,10 +238,7 @@ justify-content: space-between;
 
 }
 
-.links{
-  text-decoration: none;
-  color: black;
-}
+
 
 
 

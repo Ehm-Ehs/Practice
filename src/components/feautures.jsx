@@ -40,7 +40,7 @@ function AosFeatures() {
         </div>
         <div className="middledowntext">
           <div className="middledownn">
-            <strong>
+            <strong >
               <p>We a building a technology</p>
               <p>that empowers farmers</p>
             </strong>
