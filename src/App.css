@@ -163,12 +163,18 @@
   
 }
 
-
+.sub{
+  padding: 5px;
+}
 
 .foot{
   display: flex;
   justify-content: space-between; 
-  padding-top: 20px;
+
+}
+
+.footerType{
+  padding-right: 10px;
 }
 
 ul{
@@ -179,6 +185,7 @@ ul{
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #606060;
+  padding: 10px;
 }
 
 .footerlist{

@@ -85,13 +85,13 @@ function AosFeatures() {
 
       <>
         <div className="footer">
-          <div>
+          <div className="sub">
             <strong>
-              <p>Subscribe our Newsletter</p>
+              <p className="">Subscribe our Newsletter</p>
             </strong>
           </div>
           <div className="foot">
-            <strong>
+            <strong  className="footerType">
               <input type="search" placeholder="Enter your email address" />
             </strong>
             <div>
