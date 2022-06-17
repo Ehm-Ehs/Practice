@@ -1,6 +1,20 @@
 /* -----------general---------- */
+@font-face {
+  font-family: 'TT Hoves';
+  src: url('./font/TTHoves-Thin.eot');
+  src: local('./font/TT Hoves Thin'), local('TTHoves-Thin'),
+      url('./font/TTHoves-Thin.eot?#iefix') format('embedded-opentype'),
+      url('./font/TTHoves-Thin.woff2') format('woff2'),
+      url('./font/TTHoves-Thin.woff') format('woff'),
+      url('./font/TTHoves-Thin.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
 *{
     box-sizing: border-box;
+    margin: 0;
+    font-family: 'TT Hoves Hairline';
     
   }
   body{
@@ -35,16 +49,22 @@
   font-size: 18px;
 }
 
+
 .btn{
-  padding: 15px 10px;
+  padding: 13px 13px;
   border-color: black;
-  border-radius: 5px;
-  font-size: 14px;
+  border-radius: 8px;
+  font-size: 16px;
 }
 
 .green{
   background-color: #48A928;
   border-style: none;
+  color:white 
+
+}
+.btn-img{
+  padding: 0 5px;
 }
 
 .links{
@@ -96,19 +116,29 @@ margin: 0;
 
  
 
-.middle{
-  padding:0 20px;
-}
-
-.middle-content{
+.mid1{
+padding:0 50px;
  display: flex;
  gap: 30px;
  justify-content: space-around;
  align-items: center;
  font-size: 18px;
- padding: 0 30px;
+ 
 
 }
+
+.mid2{
+  padding:0 50px;
+   display: flex;
+   flex-direction: row-reverse;
+   gap: 30px;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 18px;
+   
+  
+  }
+
 
 .middle-title{
   font-size: 32px;
@@ -142,7 +172,7 @@ margin: 0;
 
 .middle-img{
   padding: 100px;
-  padding-top: 100px;
+  padding-top: 115px;
 }
 
 
@@ -175,9 +205,21 @@ margin: 0;
   text-align: left;
   
 }
+input{
+  padding: 10px;
+  border-radius: 5px;
+  height: 50px;
+  /* width: 100px; */
+}
+
+/* --------------------------footer------------------------------- */
 
 .sub{
   padding: 5px;
+}
+
+.sub1{
+  padding: 15px 0;
 }
 
 .foot{
@@ -186,9 +228,9 @@ margin: 0;
 
 }
 
-.footerType{
+/* .footerType{
   padding-right: 10px;
-}
+} */
 
 ul{
   list-style: none;
@@ -198,7 +240,7 @@ ul{
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #606060;
-  padding: 10px;
+  padding: 40px 25px;
 }
 
 .footerlist{
@@ -212,12 +254,14 @@ ul{
   padding: 5px 20px;
   padding-bottom: 40px;
   border-top: 1px solid #606060;
+  
 }
 
 .footerddown{
   display: flex;
   justify-content: space-between;
   gap:10px;
+  padding-bottom: 20px;
 }
 
 .listed{
@@ -225,7 +269,7 @@ ul{
 }
 
 .list-heading{
-  padding-left: 0px;
+  padding:5px  0px;
 }
 
 .info{
@@ -238,25 +282,26 @@ justify-content: space-between;
 
 }
 
-
+.icon{
+  padding-bottom: 5px; 
+   display:flex;
+  }
+  
+  .icon-type{
+    /* padding: 5px 0; */
+    font-size: 14px;
+  }
+  
+  .iconImg{
+    height: 20px;
+    width: 20px;
+  }
 
 
 
 .buttonGreen{
   border-radius: 5px;
   background-color: #48A928;
-  padding:5px 10px;
+  padding:15px 15px;
 }
 
-.icon{
-padding-bottom: 5px; 
- display:flex;
-}
-
-.icon-type{
-  font-size: 14px;
-}
-
-.iconImg{
-  height: 20px;
-}

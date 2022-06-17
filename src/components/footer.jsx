@@ -220,7 +220,7 @@ function Footer() {
         </div>
       </footer>
       <div className="footerdown">
-        <div>Copyright  @ 2022AOS</div>
+        <div>Copyright © 2022AOS</div>
         <div className="footerddown">
           <p>Privacy Policy</p>
           <p>Terms of Service</p>

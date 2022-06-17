@@ -17,7 +17,7 @@ function Top() {
             Our technology solution aimed at digitizing all processes in
             agricultural value chain
           </p>
-          <Button />
+          <Button  text='Request Demo'/>
           <div>
             <img src={table} alt="table" />
           </div>

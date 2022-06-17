@@ -56,7 +56,7 @@ function AosFeatures() {
             </p>
           </div>
           <div className="type">
-              <Button className="green"/>
+              <Button className="green" text='Request Demo'/>
           </div>
         </div>
         <div>
@@ -85,20 +85,20 @@ function AosFeatures() {
 
       <>
         <div className="footer">
-          <div className="sub">
+          <div className="sub1">
             <strong>
               <p className="">Subscribe our Newsletter</p>
             </strong>
           </div>
           <div className="foot">
             <strong  className="footerType">
-              <input type="search" placeholder="Enter your email address" />
+              <input type="search" placeholder="Enter your email address" size="50" />
             </strong>
-            <div>
-              <a href="#" target="_blank" className="links buttonGreen">
-                Subscribe
-                <img src={arrow} alt="ar" />
-              </a>
+            <div className="sub" >
+              <Button className='green' text='Subscribe' img={arrow}/>
+             
+                {/* <img src={arrow} alt="ar" /> */}
+              
             </div>
           </div>
         </div>

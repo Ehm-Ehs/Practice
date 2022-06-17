@@ -1,17 +1,13 @@
 const Button = (props) => {
+  const handleClick = (e) => {};
 
-    const handleClick = (e) => {
-
-    }
-
-    // const myStyle=
+  // const myStyle=
 
   return (
     <>
-      <button onClick={(e)=> handleClick} className={"btn "+props.className}>
-        <a href="#" className="links button ">
-          Request Demo
-        </a>
+      <button onClick={(e) => handleClick} className={"btn " + props.className}>
+        {props.text}
+        <img src={props.img} alt="" className="btn-img" />
       </button>
     </>
   );
