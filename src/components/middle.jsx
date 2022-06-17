@@ -8,7 +8,8 @@ function Middle(props) {
 
   return (
     <>
-    <div className={props.className} >
+   <div className="mid">
+   <div className={props.className} >
       <div className="middle-img" style={{backgroundImage:`url(${props.bg})`, backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <img src={props.src} alt="pic"/>
       </div>
@@ -16,6 +17,7 @@ function Middle(props) {
         <p className="middle-title"> <strong> {props.title} </strong> </p>
         <p className="middle-body"> {props.body} </p>
       </div>
+   </div>
          {/* {writeups.map((writeup) => (
              <div className="middle-content" key= {writeup.id}>
                  <div className="middle-img" style={{backgroundImage:`url(${writeup.bg})`, backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>

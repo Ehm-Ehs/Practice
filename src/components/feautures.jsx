@@ -14,7 +14,7 @@ function AosFeatures() {
       <div className="middledown">
         <div>
           <svg
-            width="402"
+            width="352"
             height="400"
             viewBox="0 0 482 555"
             fill="none"
@@ -45,15 +45,13 @@ function AosFeatures() {
               <p>that empowers farmers</p>
             </strong>
           </div>
-          <div>
+          <div className="midtext">
             <p>
-              We leverage technology to empower smallholder farmers across <br/>
-              Africa by linking them to finances data-driven best practices,<br/> and access to local global marketers for
+              We leverage technology to empower smallholder farmers across
+              Africa by linking them to finances data-<br/>driven best practices, and access to local global marketers for
               their commodities
             </p>
-            <p>
-              
-            </p>
+           
           </div>
           <div className="type">
               <Button className="green" text='Request Demo'/>
@@ -61,7 +59,7 @@ function AosFeatures() {
         </div>
         <div>
           <svg
-            width="380"
+            width="300"
             height="400"
             viewBox="0 0 332 555"
             fill="none"

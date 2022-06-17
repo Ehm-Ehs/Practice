@@ -18,8 +18,8 @@ function Top() {
             agricultural value chain
           </p>
           <Button  text='Request Demo'/>
-          <div>
-            <img src={table} alt="table" />
+          <div >
+            <img src={table} alt="table" className="tbl"/>
           </div>
         </div>
         <div className="partners">

@@ -55,7 +55,7 @@ function Header() {
             </a>
           </div>
           <div >
-            <Button className="green" text='Request Demo' />
+            <Button className="green1" text='Request Demo' />
           </div>
         </div>
       </div>
