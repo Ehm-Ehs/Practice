@@ -1,20 +1,20 @@
 /* -----------general---------- */
 @font-face {
   font-family: 'TT Hoves';
-  src: url('./font/TTHoves-Thin.eot');
-  src: local('./font/TT Hoves Thin'), local('TTHoves-Thin'),
-      url('./font/TTHoves-Thin.eot?#iefix') format('embedded-opentype'),
-      url('./font/TTHoves-Thin.woff2') format('woff2'),
-      url('./font/TTHoves-Thin.woff') format('woff'),
-      url('./font/TTHoves-Thin.ttf') format('truetype');
-  font-weight: 200;
+  src: url('./font/TTHoves-Medium.eot');
+  src: local('./font/TT Hoves Medium'), local('TTHoves-Medium'),
+      url('./font/TTHoves-Medium.eot?#iefix') format('embedded-opentype'),
+      url('./font/TTHoves-Medium.woff2') format('woff2'),
+      url('./font/TTHoves-Medium.woff') format('woff'),
+      url('./font/TTHoves-Medium.ttf') format('truetype');
+  font-weight: 500;
   font-style: normal;
 }
 
 *{
     box-sizing: border-box;
     margin: 0;
-    font-family: 'TT Hoves Hairline';
+    font-family: 'TT Hoves';
     
   }
   body{
@@ -63,9 +63,9 @@
   color:white 
 
 }
-.btn-img{
+/* .btn-img{
   padding: 0 5px;
-}
+} */
 
 .links{
   text-decoration: none;
